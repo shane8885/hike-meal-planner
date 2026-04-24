@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+*.egg-info/
+*.pyc
+__pycache__/
+
+# Build outputs
+build/
+dist/
+*.o
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Spring Boot
+target/
+.mvn/
+
+# React
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Database
+*.db
+*.sqlite
